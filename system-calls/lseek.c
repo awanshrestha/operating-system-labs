@@ -34,3 +34,31 @@ int main()
 
     return 0; 
 } 
+
+
+
+
+// #include <stdio.h> 
+// #include <unistd.h> 
+// #include <sys/types.h> 
+// #include <fcntl.h> 
+   
+// int main() 
+// { 
+//     char arr[100]; 
+//     int n; 
+//     n = 5; 
+
+//     int f1 = open("start.txt", O_RDONLY); 
+//     int f2 = open("end.txt", O_WRONLY); 
+    
+//     while (read(f1, arr, 1)) 
+//     { 
+//             lseek (f1, 1, SEEK_CUR); 
+//             write (f2, arr, 1); 
+//     } 
+//     close(f1); 
+//     close(f2); 
+
+//     return 0; 
+// } 

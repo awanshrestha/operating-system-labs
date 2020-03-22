@@ -23,7 +23,7 @@ int main(){
         pid1 = getpid();
         printf("parent pid = %d",pid);
         printf("parent pid1 = %d",pid1);
-        // wait(NULL);
+         wait(NULL);
     }
 
     return 0;

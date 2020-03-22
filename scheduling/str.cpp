@@ -2,9 +2,9 @@
 using namespace std; 
   
 struct Process { 
-    int pid; // Process ID 
-    int bt; // Burst Time 
-    int art; // Arrival Time 
+    int pid; 
+    int bt; 
+    int art; 
 }; 
   
 void findWaitingTime(Process proc[], int n, 

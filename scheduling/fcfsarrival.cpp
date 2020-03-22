@@ -1,5 +1,3 @@
-
-
 #include<iostream> 
 using namespace std; 
   
@@ -57,17 +55,11 @@ void findavgTime(int processes[], int n, int bt[], int at[])
          << (float)total_tat / (float)n; 
 } 
   
-// Driver code 
 int main() 
 { 
-    // Process id's 
     int processes[] = {1, 2, 3}; 
     int n = sizeof processes / sizeof processes[0]; 
-  
-    // Burst time of all processes 
-    int burst_time[] = {5, 9, 6}; 
-  
-    // Arrival time of all processes 
+    int burst_time[] = {5, 9, 6};  
     int arrival_time[] = {0, 3, 6}; 
   
     findavgTime(processes, n, burst_time, arrival_time); 
